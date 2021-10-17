@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Assignment 2</title>
+
+    <style>
+        body{
+            margin: 0px;
+        }
+
+        .container{
+            height: 100vh;
+            position: relative;
+            background-image: linear-gradient(to top right, rgb(68, 0, 255) , purple);
+        }
+        table{
+            border-collapse: collapse;
+            font-size: 14px;
+            margin: auto;
+            vertical-align: middle;
+            width: 70%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        thead td{
+            background-color: rgb(51, 51, 51);
+            color: #fff;  
+        }
+        tr:nth-child(even){
+            background-color: #e8e8e8;
+        }
+        tr:nth-child(odd){
+            background-color: #fff;
+        }
+        td{
+            padding: 0.75rem 2rem;
+        }
+        td:nth-last-child(-n+3){
+            text-align: right;
+        }
+
+        table thead td:last-child{
+            border-top-right-radius: 10px;
+        }
+        table thead td:first-child{
+            border-top-left-radius: 10px;
+        }
+        table tbody tr:last-child td:first-child{
+            border-bottom-left-radius: 10px;
+        }
+        table tbody tr:last-child td:last-child{
+            border-bottom-right-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <td>Date</td>
+                    <td>Order ID</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-03-02 01:20</td>
+                    <td>20022</td>
+                    <td>Samsung s8 Black</td>
+                    <td>$756.00</td>
+                    <td>1</td>
+                    <td>$756.00</td>
+                </tr>
+                <tr>
+                    <td>2021-03-14 01:20</td>
+                    <td>20023</td>
+                    <td>Game Console controler</td>
+                    <td>$22.00</td>
+                    <td>2</td>
+                    <td>$44.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+                <tr>
+                    <td>2021-02-12 01:20</td>
+                    <td>20021</td>
+                    <td>Iphone X 64gb</td>
+                    <td>$999.00</td>
+                    <td>1</td>
+                    <td>$999.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
